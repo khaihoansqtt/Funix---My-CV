@@ -1,0 +1,45 @@
+/* Tablet and mobile */
+@media (max-width: 1024px) {
+    #navbar {
+        justify-content: center;
+    }
+
+    .navbar-item:nth-child(3n + 1) {
+        border-left: none;
+    }
+
+    .navbar-left {
+        border-left: 1px solid #dfdfdf;
+    }
+    
+    .navbar-personal-img {
+        display: none;
+    }
+    
+    .my-certificate-item {
+        display: block;
+    }
+    
+    .my-certificate-detail {
+        padding-left: 12px;
+        padding-top: 12px;
+    }
+
+    .my-project-detail-field {
+        width: 65px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1024px) {
+    .about-item {
+        padding: 60px 20px 35px 50px;
+    }
+    .section-content {
+        padding: 60px 20px 35px 50px;
+    }
+
+    .my-project-position {
+        margin-left: 88px;
+    }
+}

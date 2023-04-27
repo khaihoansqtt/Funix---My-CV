@@ -30,6 +30,7 @@ a:hover {
 
 ul {
     list-style: none;
+    padding-left: 0;
 }
 
 .bg-grey {
@@ -48,35 +49,6 @@ ul {
     background-color: #6debeb;
 }
 
-section > .container{
-    max-width: 1200px;
-    margin: auto;
-    font-size: 1.4rem;
-}
-
-.container.full {
-    max-width: unset;
-}
-
-.container .row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.row .col-6 {
-    width: 50%;
-}
-
-.row .col-4 {
-    width: 33.3333%;
-}
-
-.row.gutter-20 {
-    margin-right: -10px;
-    margin-left: -10px;
-}
-
-.row.gutter-20 .col-4{
-    padding-left: 10px;
-    padding-right: 10px;
+.hide {
+    display: none !important; 
 }

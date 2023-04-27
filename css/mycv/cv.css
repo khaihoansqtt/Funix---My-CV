@@ -1,0 +1,100 @@
+/* Base and reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.equal > div[class*='col-'] {
+    display: flex;
+}
+
+.container {
+    background-color: #0000ffc7;
+}
+
+/* CSS */
+
+/* General */
+.cv-content {
+    font-size: 14px;
+    padding: 16px 4px;
+}
+
+.cv-part {
+    background-color: #fff;
+    padding: 10px;
+    width: 100%;
+}
+
+.cv-part-header {
+    padding: 10px 0px;
+    color: #243b91;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #ccc;
+}
+
+.cv-part-list-item {
+    display: flex;
+    padding: 12px 0;
+}
+
+.cv-part-list-item.time-line-item + .cv-part-list-item {
+    border-top: 1px dashed #0000ffc7;
+}
+
+.cpli-icon {
+    width: 50px;
+    font-size: 20px;
+    color: black;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.cpli-content-title {
+    font-weight: 500;
+}
+
+/* Scopes section */
+
+.scopes-list {
+    display: flex;
+}
+
+.scopes-list-item {
+    padding-left: 12px;
+}
+
+.scopes-list-item-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.scopes-list-item-info {
+    margin-top: 10px;
+}
+
+/* Time-line section */
+
+.time-line-item {
+    padding-left: 12px;
+}
+
+.time-line-circle {
+    flex-shrink: 0;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9e88ff;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

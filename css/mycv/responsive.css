@@ -1,0 +1,20 @@
+/* Tablet and mobile */
+@media (max-width: 1023px) {
+    .cv-part {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .cv-part-list-item {
+        display: block;
+    }
+
+    .cpli-icon {
+        width: auto;
+        font-size: 24px;
+    }
+
+    .scopes-list {
+        display: block;
+    }
+}
